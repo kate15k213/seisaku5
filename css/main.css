@@ -1,1 +1,368 @@
 @charset "utf-8";
+
+.maina {
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.mainaboxa {
+    background-image: url("../images/common/download-2.jpg");
+    width: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainaboxab {
+    background-color: rgba(41, 52, 145, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.mainaboxab h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.mainaboxab p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.mainaboxab a {
+    color: #000;
+    font-size: 15px;
+}
+
+.mainaboxab-button {
+    position: relative;
+    font-size: 13px;
+    padding-left: 10px;
+    color: #fff;
+    background-color: #fff;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainaboxab-button::before {
+    position: absolute;
+    top: 50%;
+    left: 50;
+    content: url("../images/common/download-10.svg");
+    display: block;
+    width: 8px;
+}
+
+.mainaboxb {
+    background-image: url("../images/common/download-3.jpg");
+    width: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainaboxbb {
+    background: rgba(67, 115, 185, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.mainaboxb h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.mainaboxbb p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.mainaboxbb a {
+    color: #000;
+    font-size: 15px;
+}
+
+/* ------------------------------maina------------------------------ */
+
+.mainbboxa {
+    background-image: url("../images/common/download-4.jpg");
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainbboxab {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-top: 110px;
+    padding-bottom: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainbox-a {
+    max-width: 95%;
+    width: 95%;
+    /* background-color: palegreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainbox-a h2 {
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.mainbox-atextbox {
+    max-width: 100%;
+    width: 800px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+.mainbox-atextbox p {
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.mainbox-abox {
+    margin-top: 40px;
+    /* background-color: blueviolet; */
+    max-width: 100%;
+    width: 1200px;
+    display: flex;
+}
+
+.mainbox-aboxa {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: calc(100% /3);
+    background-color: rgba(67, 115, 185, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainbox-aboxalogo img {
+    display: block;
+    max-width: 95%;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.mainbox-aboxaーbutton {
+    margin-top: 50px;
+    position: relative;
+    font-size: 13px;
+    padding-left: 10px;
+    color: #fff;
+    background-color: #fff;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainbox-aboxaーbutton::before {
+    position: absolute;
+    top: 50%;
+    left: 40;
+    content: url("../images/common/download-10.svg");
+    display: block;
+    width: 8px;
+}
+
+.mainbox-aboxa p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.mainbox-aboxa a {
+    color: #000;
+    font-size: 15px;
+}
+
+.mainbox-aboxa p {
+    letter-spacing: 4px;
+}
+
+.mainbox-aboxb {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: calc(100% /3);
+    background-color: rgba(0, 86, 159, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainbox-aboxalogob img {
+    display: block;
+    max-width: 95%;
+    width: 75px;
+    margin-bottom: 20px;
+}
+
+.mainbox-aboxb p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.mainbox-aboxb a {
+    color: #000;
+    font-size: 15px;
+}
+
+.mainbox-aboxb p {
+    letter-spacing: 4px;
+}
+
+.mainbox-aboxc {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: calc(100% /3);
+    background-color: rgba(0, 62, 138, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainbox-aboxalogoc img {
+    display: block;
+    max-width: 95%;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.mainbox-aboxc p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.mainbox-aboxc a {
+    color: #000;
+    font-size: 15px;
+}
+
+.mainbox-aboxc p {
+    letter-spacing: 4px;
+}
+
+@media (max-width: 750px) {
+    .maina {
+        margin-top: 0px;
+        display: block;
+    }
+
+    .mainaboxa {
+        width: 100%;
+    }
+
+    .mainaboxab h2 {
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .mainaboxab p {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mainaboxab a {
+        color: #000;
+        font-size: 15px;
+    }
+
+    .mainaboxab {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .mainaboxb {
+        width: 100%;
+    }
+
+    .mainaboxbb {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .mainaboxb h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .mainaboxbb p {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mainbox-abox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainbox-aboxa {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    .mainbox-aboxb {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    .mainbox-aboxc {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    .mainbox-aboxaーbutton {
+        margin-top: 20px;
+        position: relative;
+        font-size: 13px;
+        padding-left: 10px;
+        color: #fff;
+        background-color: #fff;
+        width: 200px;
+        height: 40px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+}
