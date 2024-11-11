@@ -512,6 +512,13 @@ a {
     z-index: 20;
   }
 
+  .header-nav .nava {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
   .header-box.open {
     display: block;
   }
