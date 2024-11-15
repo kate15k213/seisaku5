@@ -17,6 +17,27 @@ a {
   background-color: #fff;
 }
 
+.body-button {
+  position: fixed;
+  right: 0;
+  bottom: 100;
+  color: #fff;
+  padding: 10px;
+  /*デフォルトで非表示にする*/
+  opacity: 0;
+
+  z-index: 10;
+}
+
+.bottonimg {
+  width: 80px;
+}
+
+.body-bottonactive {
+  opacity: 1;
+  visibility: visible;
+}
+
 .header {
   background-image: url("../images/common/fv01.jpg");
   position: relative;
@@ -47,10 +68,28 @@ a {
   /* background-color: black; */
 }
 
+.header-box.sticky {
+  background-color: #fff;
+  position: fixed;
+}
+
 .header-logo {
   margin-left: 20px;
   display: block;
   background-image: url("../images/common/download-2.svg");
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 50px;
+}
+
+.header-logo:hover {
+  opacity: 0.5;
+}
+
+.header-logoab {
+  margin-left: 20px;
+  display: block;
+  background-image: url("../images/common/download-16.svg");
   background-repeat: no-repeat;
   width: 250px;
   height: 50px;
@@ -75,6 +114,14 @@ a {
   color: #fff;
   font-size: 20px;
   font-weight: bold;
+}
+
+.header-nav .nava:hover {
+  opacity: 0.5;
+}
+
+.header-nav .nava.navb {
+  color: #000;
 }
 
 .header-button {
@@ -118,6 +165,22 @@ a {
   width: 80px;
 }
 
+.button:hover {
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  color: deeppink;
+  border-color: deeppink;
+}
+
+.button:hover::before {
+  content: url(../images/common/download-9.svg);
+}
+
+.button:hover::after {
+  content: url(../images/common/download-14.svg);
+}
+
 .header-buttonb {
   display: flex;
 }
@@ -138,6 +201,14 @@ a {
   font-size: 15px;
 }
 
+.buttonb:hover {
+  color: #1f4f92;
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1f4f92;
+}
+
 .buttonc {
   display: flex;
   align-items: center;
@@ -151,6 +222,14 @@ a {
   height: 50px;
   border-radius: 100%;
   font-size: 15px;
+}
+
+.buttonc:hover {
+  color: #143561;
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #143561;
 }
 
 .header-mainlogo {
@@ -329,6 +408,18 @@ a {
   font-weight: bold;
 }
 
+.footer-button:hover {
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  color: deeppink;
+  border-color: deeppink;
+}
+
+.footer-button:hover::before {
+  content: url(../images/common/download-9.svg);
+}
+
 .footer-button::before {
   content: url(../images/common/download-4.svg);
   position: absolute;
@@ -436,6 +527,10 @@ a {
   width: 8px;
 }
 
+.footerda-pa:hover {
+  opacity: 0.5;
+}
+
 .footerda-pb {
   font-size: 13px;
 }
@@ -449,6 +544,13 @@ a {
   .header-logo {
     display: block;
     background-image: url("../images/common/download-2.svg");
+    background-repeat: no-repeat;
+    width: 200px;
+  }
+
+  .header-logoab {
+    display: block;
+    background-image: url("../images/common/download-16.svg");
     background-repeat: no-repeat;
     width: 200px;
   }
@@ -512,6 +614,23 @@ a {
     z-index: 20;
   }
 
+  .header-boxa {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 20px;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    background-color: #fff;
+    z-index: 20;
+  }
+
   .header-nav .nava {
     color: #000;
     font-size: 20px;
@@ -519,7 +638,7 @@ a {
   }
 
 
-  .header-box.open {
+  .header-boxa.open {
     display: block;
   }
 
@@ -605,7 +724,7 @@ a {
   }
 
   .header-mainlogo {
-    margin-top: 60px;
+    padding-top: 60px;
   }
 
   .header-mainlogo img {
@@ -736,6 +855,10 @@ a {
 
   .footerda br {
     display: block;
+  }
+
+  .bottonimg {
+    width: 60px;
   }
 
 }

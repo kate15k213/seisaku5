@@ -55,6 +55,14 @@
     justify-content: center;
 }
 
+.mainaboxab-button:hover {
+    color: #fff;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+}
+
 .mainaboxab-button::before {
     position: absolute;
     top: 50%;
@@ -62,6 +70,10 @@
     content: url("../images/common/download-10.svg");
     display: block;
     width: 8px;
+}
+
+.mainaboxab-button:hover::before {
+    content: url("../images/common/download-4.svg");
 }
 
 .mainaboxb {
@@ -185,13 +197,25 @@
     text-align: center;
 }
 
+.mainbox-aboxaーbutton:hover {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    color: #fff;
+}
+
 .mainbox-aboxaーbutton::before {
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 40;
     content: url("../images/common/download-10.svg");
     display: block;
     width: 8px;
+}
+
+.mainbox-aboxaーbutton:hover::before {
+    content: url("../images/common/download-4.svg");
 }
 
 .mainbox-aboxa p {
