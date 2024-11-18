@@ -1,0 +1,862 @@
+@charset "utf-8";
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.maina {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(41, 52, 145, 0.7);
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.maina-li::after {
+    content: "＞";
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.maina-ul li {
+    color: #fff;
+}
+
+.maina-ul a {
+    color: #fff;
+}
+
+.mainabox {
+    max-width: 95%;
+    width: 90%;
+    /* background-color: aqua; */
+}
+
+.mainabox p {
+    color: #fff;
+}
+
+.maina-ul {
+    display: flex;
+}
+
+.maina-br {
+    display: none;
+}
+
+.mainabox-textbox {
+    text-align: center;
+    max-width: 100%;
+    width: 900px;
+    /* background-color: aqua; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainabox-textbox h2 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+    letter-spacing: 5px;
+}
+
+/* ------------maina---------------------------- */
+
+.mainbbox {
+    max-width: 95%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.mainbbox h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+
+.mainbbox p {
+    display: inline-block;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.mainbox-br {
+    display: none;
+}
+
+/* ------------mainb---------------------------- */
+.mainc {
+    background-image: url("../images/commonb/mainc.jpg");
+    width: 100%;
+    /* height: 1000px; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.maincbox {
+    padding-top: 90px;
+    max-width: 95%;
+    width: 95%;
+    padding-bottom: 80px;
+    /* background-color: aqua; */
+}
+
+.mainc-logo {
+    position: absolute;
+    top: 90;
+    left: 40;
+}
+
+.mainc-logo img {
+    width: 10px;
+}
+
+.maincbox h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+
+.flexbox {
+    margin-top: 60px;
+    width: 100%;
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.itema {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 21.2%;
+    /* height: 200px; */
+    margin-bottom: 30px;
+}
+
+.itemacolor {
+    background-color: rgb(39, 37, 122);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.itembcolor {
+    background-color: rgb(39, 37, 122);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.itemccolor {
+    background-color: rgb(39, 37, 122, 0.8);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.itemdcolor {
+    background-color: rgb(39, 37, 122, 0.7);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.itema-text h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.itema-textb {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.itema-textb p {
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.itema-box {
+    flex-grow: 1;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+.mainc-button {
+    max-width: 100%;
+    width: 370px;
+    height: 55px;
+    background-color: deeppink;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* padding-right: 0px; */
+    border-radius: 30px;
+    letter-spacing: 0.2rem;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.mainc-button:hover {
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    color: deeppink;
+    border-color: deeppink;
+}
+
+.mainc-button:hover::before {
+    content: url(../images/common/download-9.svg);
+}
+
+.mainc-button::before {
+    content: url(../images/common/download-4.svg);
+    position: absolute;
+    width: 10px;
+    left: 80px;
+}
+
+.itema-br {
+    display: block;
+}
+
+/* ------------mainc---------------------------- */
+.maind {
+    background-image: url("../images/commonb/headerc.jpg");
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.maind-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maind-ha {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.maind-hb {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.maind-box p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 30px;
+}
+
+.maind-text {
+    max-width: 95%;
+    width: 590px;
+}
+
+/* ------------maind---------------------------- */
+
+.mainebox {
+    max-width: 100%;
+    width: 100%;
+    padding-top: 150px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.mainebox h2 {
+    /* margin-top: 50px; */
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+
+.maine-logo {
+    position: absolute;
+    top: 150;
+    left: 40;
+}
+
+.maine-logo img {
+    width: 10px;
+}
+
+.mainetextbox {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 100%;
+    width: 800px;
+    /* background-color: bisque; */
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+
+}
+
+.mainetextboxa {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.mainetextboxb {
+    border-bottom: 1px solid;
+}
+
+.mainetextboxc {
+    border-bottom: 1px solid;
+}
+
+.mainetextboxd {
+    border-bottom: 1px solid;
+}
+
+.mainetextboxe {
+    border-bottom: 1px solid;
+}
+
+
+.mainetextbox h3 {
+    width: 30%;
+    padding-left: 40px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.maine-text {
+    max-width: 90%;
+    margin-top: 80px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.maine-text p {
+    font-size: 13px;
+}
+
+/* ------------maine---------------------------- */
+
+.mainf {
+    display: flex;
+    justify-content: center;
+}
+
+.mainfbox {
+    padding-top: 200px;
+    position: relative;
+}
+
+.mainf-logo {
+    position: absolute;
+    top: 230;
+    left: 40;
+}
+
+.mainf-logo img {
+    width: 12px;
+}
+
+.mainfbox h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+.mainfbox {
+    max-width: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainftext {
+    display: flex;
+    max-width: 95%;
+    width: 700px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mainf-pa {
+    width: 35%;
+    padding-left: 50px;
+}
+
+.mainftextbordera {
+    border-top: 1px solid;
+}
+
+.mainftextborderb {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+/* ------------mainf---------------------------- */
+
+.maing {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.maingbox {
+    padding-top: 150px;
+    max-width: 95%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maing-logo {
+    position: absolute;
+    top: 150;
+    left: 40;
+}
+
+.maing-logo img {
+    width: 12px;
+}
+
+.maingbox h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+.maing-text {
+    max-width: 100%;
+    width: 660px;
+    line-height: 30px;
+}
+
+.maing-textmargin {
+    margin-bottom: 30px;
+}
+
+/* ------------maing---------------------------- */
+.mainh {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.mainh-logo {
+    position: absolute;
+    top: 150;
+    left: 40;
+}
+
+.mainh-logo img {
+    width: 12px;
+}
+
+.mainhbox {
+    padding-top: 150px;
+    padding-bottom: 200px;
+    /* background-color: aqua; */
+    max-width: 95%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainhtextbox {
+    max-width: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainhbox h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+.mainhboxp {
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.mainhbordera {
+    border-top: 1px solid;
+
+}
+
+.mainhborderb {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.mainhborderc {
+    border-bottom: 1px solid;
+}
+
+.mainhbr {
+    display: none;
+}
+
+.mainh-text {
+    max-width: 100%;
+    display: flex;
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mainh-text p:first-child {
+    padding-left: 30px;
+    width: 35%;
+}
+
+
+
+
+
+@media (max-width: 1220px) {
+    .itema {
+        width: 46%;
+    }
+
+    .itema-br {
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) {
+    .mainc-logo {
+        display: none;
+    }
+
+    .maine-logo {
+        display: none;
+    }
+
+    .mainf-logo {
+        display: none;
+    }
+
+    .maing-logo {
+        display: none;
+    }
+
+    .mainh-logo {
+        display: none;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .maina {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .maina-br {
+        display: block;
+    }
+
+    .mainabox-textbox h2 {
+        font-size: 23px;
+        color: #fff;
+        line-height: 40px;
+        letter-spacing: 5px;
+    }
+
+    .maina-ul {
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+
+    /* ------------maina---------------------------- */
+
+    .mainbbox {
+        max-width: 95%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .mainbox-br {
+        display: block;
+    }
+
+    .mainbbox h2 {
+        font-size: 23px;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+
+    .mainbbox p {
+        font-size: 14px;
+    }
+
+    /* ------------mainb---------------------------- */
+    .itema {
+        width: 100%;
+    }
+
+    .mainc-button {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .mainc-button::before {
+        display: block;
+        left: 30%;
+    }
+
+    .maincbox h2 {
+        font-size: 25px;
+    }
+
+    /* ------------mainc---------------------------- */
+
+    .maind {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .maind-ha {
+        margin-bottom: 20px;
+        font-size: 30px;
+        letter-spacing: 5px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .maind-hb {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .maind-box {
+        max-width: 90%;
+        width: 90%;
+    }
+
+
+    .maind-text {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flexbox {
+        margin-top: 30px;
+    }
+
+    /* ------------maind---------------------------- */
+
+    .mainetextbox {
+        border-top: medium;
+        border-bottom: medium;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        max-width: 90%;
+        width: 90%;
+        /* background-color: bisque; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        align-items: normal;
+    }
+
+    .mainetextbox:last-child {
+        border-bottom: 1px solid;
+    }
+
+    .mainetextbox h3 {
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        padding-left: 0px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+
+    .maine-pa {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .maine-pb {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 15px;
+    }
+
+
+    .maine-text p {
+        font-size: 13px;
+    }
+
+    .maine-bra {
+        display: none;
+    }
+
+    .maine-brb {
+        display: none;
+    }
+
+    .maine-brc {
+        display: none;
+    }
+
+    .maine-brd {
+        display: none;
+    }
+
+    .maine-text {
+        margin-top: 20px;
+    }
+
+    /* ------------maine---------------------------- */
+
+    .mainfbox {
+        padding-top: 50px;
+    }
+
+    .mainfbox h2 {
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+
+    .mainftext {
+        max-width: 90%;
+    }
+
+    .mainf-pa {
+        width: 35%;
+        padding-left: 10px;
+    }
+
+    .mainftext p {
+        font-size: 14px;
+    }
+
+    /* ------------mainf---------------------------- */
+
+
+    .maingbox {
+        padding-top: 60px;
+        max-width: 90%;
+        width: 90%;
+    }
+
+    .maingbox p {
+        font-size: 14px;
+    }
+
+    .maingbox h2 {
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+
+    .maing-text {
+        max-width: 100%;
+        width: 660px;
+    }
+
+    .maing-textmargin {
+        margin-bottom: 30px;
+    }
+
+    /* ------------maing---------------------------- */
+
+    .mainhbox {
+        padding-top: 80px;
+        padding-bottom: 100px;
+        /* background-color: aqua; */
+        max-width: 90%;
+        width: 90%;
+    }
+
+
+    .mainhbox h2 {
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+
+    .mainhbr {
+        display: block;
+    }
+
+    .mainhboxp {
+        margin-bottom: 20px;
+    }
+
+    .mainhbox p {
+        font-size: 14px;
+    }
+
+
+    .mainh-text {
+        max-width: 100%;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .mainh-text p:first-child {
+        padding-left: 10px;
+        width: 30%;
+    }
+
+}
