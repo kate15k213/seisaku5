@@ -1,0 +1,499 @@
+@charset "utf-8";
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    background-color: #f5f5f5;
+}
+
+.maina {
+    display: flex;
+    justify-content: center;
+    /* background-color: rgba(41, 52, 145, 0.7); */
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.maina-li::after {
+    content: "＞";
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.maina-ul li {
+    /* color: #fff; */
+}
+
+.maina-ul a {
+    color: #000;
+}
+
+.mainabox {
+    max-width: 90%;
+    width: 90%;
+    /* background-color: aqua; */
+}
+
+.mainabox p {
+    color: #fff;
+}
+
+.maina-ul {
+    display: flex;
+}
+
+.maina-br {
+    display: none;
+}
+
+.mainabox-textbox {
+    padding-top: 100px;
+    text-align: center;
+    max-width: 100%;
+    width: 900px;
+    /* background-color: aqua; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainabox-textbox h2 {
+    font-size: 22px;
+    /* color: #fff; */
+    font-weight: normal;
+    line-height: 50px;
+    letter-spacing: 5px;
+}
+
+/* ------------maina---------------------------- */
+
+.mainb {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 130px;
+}
+
+.mainb::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/commonb/tel.png);
+    background-color: #0071be;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 50px;
+    top: -30;
+}
+
+.mainbbox {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-color: #fff;
+    max-width: 90%;
+    width: 800px;
+    text-align: center;
+}
+
+.mainbtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainbtexta {
+    display: flex;
+    max-width: 90%;
+    width: 580px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mainb-bordera {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.mainb-borderb {
+    border-bottom: 1px solid #000;
+}
+
+.mainbtext {
+    margin-top: 40px;
+}
+
+.mainbbox h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+
+.mainbtext p {
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.mainbpa {
+    padding-left: 30px;
+    width: 35%;
+}
+
+.mainbpb {
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+/* ------------mainb---------------------------- */
+
+.mainc {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 130px;
+    padding-bottom: 200px;
+}
+
+.maincbox h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.mainc::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/commonb/mail-icon.png);
+    background-color: #0071be;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 50px;
+    top: -30;
+}
+
+.maincbox {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-color: #fff;
+    max-width: 90%;
+    width: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    max-width: 90%;
+    width: 900px;
+    text-align: left;
+}
+
+.required {
+    display: inline-block;
+    width: 60%;
+    padding-left: 20px;
+}
+
+.mainc-textbox {
+    border-top: 1px solid #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainc-textboxb {
+    border-top: 1px solid #000;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.centera {
+    display: flex;
+    align-items: start;
+    /* flex-direction: column; */
+}
+
+
+dl {
+    /* background-color: aqua; */
+
+}
+
+dl dt {
+    width: 300px;
+    /* background-color: red; */
+}
+
+dl dd {
+    width: calc(100% - 320px);
+}
+
+.must {
+    display: inline-block;
+    color: #d50078;
+    border: solid 2px #d50078;
+    padding: 1px 11px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.mainc-textboxb-border {
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+
+.mainc-textboxb-border:hover {
+    opacity: 0.5;
+}
+
+.input-text {
+    width: 100%;
+    height: 40px;
+}
+
+.input-textb {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 130px;
+}
+
+.submit-button {
+    background-color: #4373b9;
+    display: block;
+    max-width: 95%;
+    width: 300px;
+    line-height: 45px;
+    border-radius: 24px;
+    border: 2px solid #4373b9;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 35px;
+    cursor: pointer;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit-button:hover {
+    background-color: #fff;
+    color: #4373b9;
+    border: 2px solid #4373b9;
+}
+
+.submit-button::after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/commonb/arrow_w.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    top: -40%;
+    left: 80%;
+}
+
+.submit-button:hover::after {
+    background-image: url(../images/commonb/arrow_h.png);
+}
+
+
+
+
+@media (max-width: 1220px) {}
+
+@media (max-width: 1100px) {}
+
+@media (max-width: 750px) {
+
+    .maina {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .mainabox-textbox {
+        padding-top: 30px;
+    }
+
+    .mainabox-textbox h2 {
+        font-size: 20px;
+        color: #000;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+
+    .maina-ul {
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+
+    /* ------------maina---------------------------- */
+
+    .mainb {
+        margin-top: 50px;
+    }
+
+    .mainb::before {
+        background-size: 30px 33px;
+        width: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 60px;
+    }
+
+    .mainbbox {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    .mainbbox h2 {
+        font-size: 25px;
+    }
+
+    .mainbtext p {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+    .mainbpa {
+        padding-left: 45px;
+        width: 35%;
+    }
+
+    .mainbpb {
+        padding-left: 30px;
+        font-weight: bold;
+    }
+
+    /* ------------mainb---------------------------- */
+    .mainc::before {
+        background-size: 30px 20px;
+        width: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 60px;
+    }
+
+    dl dt {
+        width: 90%;
+        margin-bottom: 20px;
+        /* background-color: red; */
+    }
+
+    dl dd {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .required {
+        display: inline-block;
+        max-width: 95%;
+        padding-left: 20px;
+    }
+
+    .requireda {
+        width: 80px;
+    }
+
+    .requiredb {
+        width: 110px;
+    }
+
+    .requiredc {
+        width: 140px;
+    }
+
+    .requiredd {
+        width: 100px;
+    }
+
+    .requirede {
+        width: 160px;
+    }
+
+    .must {
+        display: inline-block;
+        color: #d50078;
+        border: solid 2px #d50078;
+        padding: 1px 11px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    .submit-button {
+        width: 250px;
+    }
+
+    .submit-button::after {
+        left: 75%;
+    }
+
+    .input-textb {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    textarea {
+        height: 180px;
+    }
+
+
+}
+
+@media (max-width: 630px) {
+    .mainbbox h2 {
+        font-size: 15px;
+    }
+
+    .mainbtext p {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .mainbpa {
+        padding-left: 50px;
+        width: 35%;
+    }
+
+    .mainbpb {
+        padding-left: 20px;
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .mainabox-textbox h2 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .mainc-textboxb dt {
+        font-size: 12px;
+    }
+}
