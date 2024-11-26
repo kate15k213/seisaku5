@@ -39,12 +39,40 @@ a {
 }
 
 .header {
-  background-image: url("../images/common/fv01.jpg");
-  position: relative;
+  /* background-image: url("../images/common/fv01.jpg");
+  position: relative; */
   height: 100vh;
-  background-position: center center;
+  /* background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+}
+
+
+.td {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  min-height: 100vh;
+}
+
+@keyframes fdzm {
+  0% {
+    transform: scale(1.3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animation {
+  animation: fdzm 4s 0s forwards;
 }
 
 .header-main {
