@@ -15,6 +15,7 @@ a {
 
 .body {
   background-color: #fff;
+  min-width: 375px;
 }
 
 .body-button {
@@ -266,13 +267,35 @@ a {
   text-align: center;
 }
 
+.header-titlec {
+  position: absolute;
+  padding-top: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  text-align: center;
+}
+
 .header-title h1 {
   color: #fff;
   font-size: 58px;
   letter-spacing: 10px;
 }
 
+.header-titlec h1 {
+  color: #fff;
+  font-size: 58px;
+}
+
 .header-title p {
+  color: #fff;
+  font-size: 28px;
+  letter-spacing: 5px;
+  font-weight: normal;
+}
+
+.header-titlec p {
   color: #fff;
   font-size: 28px;
   letter-spacing: 5px;
@@ -792,9 +815,17 @@ a {
     letter-spacing: 5px;
   }
 
+  .header-titlec h1 {
+    font-size: 28px;
+  }
+
   .header-title p {
     font-size: 15px;
     letter-spacing: 5px;
+  }
+
+  .header-titlec p {
+    font-size: 15px;
   }
 
   /* -------------headerーーーーーーーーーー */

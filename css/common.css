@@ -15,6 +15,7 @@ a {
 
 .body {
   background-color: #fff;
+  min-width: 375px;
 }
 
 .body-button {
@@ -42,6 +43,7 @@ a {
   /* background-image: url("../images/common/fv01.jpg");
   position: relative; */
   height: 100vh;
+
   /* background-position: center center;
   background-size: cover;
   background-repeat: no-repeat; */
@@ -51,6 +53,7 @@ a {
 .td {
   position: absolute;
   width: 100%;
+  min-width: 375px;
   z-index: -1;
   height: 100%;
   overflow: hidden;
@@ -266,7 +269,7 @@ a {
   /* background-color: aqua; */
   margin-left: auto;
   margin-right: auto;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 190px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -275,7 +278,7 @@ a {
 .header-mainlogo img {
   display: block;
   max-width: 90%;
-  width: 400px;
+  width: 450px;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
@@ -752,7 +755,7 @@ a {
   }
 
   .header-mainlogo {
-    padding-top: 60px;
+    padding-top: 190px;
   }
 
   .header-mainlogo img {

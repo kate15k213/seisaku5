@@ -651,7 +651,7 @@ a {
 
     .mainc-button::before {
         display: block;
-        left: 30%;
+        left: calc(50% - 100px);
     }
 
     .maincbox h2 {
